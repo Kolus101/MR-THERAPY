@@ -2,68 +2,40 @@
 <html lang="pl">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Terapia Manualna – Kobido, Facemodeling, BaBuu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MR-THERAPY | Masaże Kobido, Facemodeling, BaBuu</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <div class="container">
-      <h1>Terapia Manualna</h1>
-      <p>Masaż Kobido | Facemodeling | BaBuu</p>
-    </div>
+    <h1>MR-THERAPY</h1>
+    <p>Masaże Kobido • Facemodeling • BaBuu</p>
   </header>
 
-  <nav>
-    <div class="container">
+  <main>
+    <section>
+      <h2>O mnie</h2>
+      <p>Jestem certyfikowanym terapeutą manualnym oferującym relaksacyjne i liftingujące masaże twarzy.</p>
+    </section>
+
+    <section>
+      <h2>Oferta zabiegów</h2>
       <ul>
-        <li><a href="#o-mnie">O mnie</a></li>
-        <li><a href="#zabiegi">Zabiegi</a></li>
-        <li><a href="#kontakt">Kontakt</a></li>
+        <li><strong>Kobido</strong> – lifting bez skalpela</li>
+        <li><strong>Facemodeling</strong> – terapia głębokich warstw twarzy</li>
+        <li><strong>BaBuu</strong> – delikatna relaksacja i regeneracja</li>
       </ul>
-    </div>
-  </nav>
+    </section>
 
-  <section id="o-mnie" class="container">
-    <h2>O mnie</h2>
-    <p>Jestem certyfikowanym terapeutą manualnym specjalizującym się w masażu twarzy metodami Kobido, Facemodeling oraz techniką BaBuu. Moim celem jest przywracanie naturalnego piękna i równowagi Twojej twarzy poprzez pracę manualną i relaksację.</p>
-  </section>
-
-  <section id="zabiegi" class="container">
-    <h2>Zabiegi</h2>
-    <div class="cards">
-      <div class="card">
-        <img src="images/kobido.jpg" alt="Masaż Kobido" />
-        <h3>Kobido</h3>
-        <p>Japoński liftingujący masaż twarzy poprawiający jędrność i owal twarzy.</p>
-      </div>
-      <div class="card">
-        <img src="images/facemodeling.jpg" alt="Facemodeling" />
-        <h3>Facemodeling</h3>
-        <p>Naturalna alternatywa dla medycyny estetycznej. Głęboka praca na tkankach twarzy.</p>
-      </div>
-      <div class="card">
-        <img src="images/babuu.jpg" alt="BaBuu" />
-        <h3>BaBuu</h3>
-        <p>Delikatna technika relaksacyjna wspierająca regenerację układu nerwowego i skóry.</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="kontakt" class="container">
-    <h2>Kontakt</h2>
-    <p>Umów się na zabieg:</p>
-    <ul>
-      <li>📞 Telefon: <a href="tel:+48123456789">+48 123 456 789</a></li>
-      <li>📧 Email: <a href="mailto:kontakt@terapiamanualna.pl">kontakt@terapiamanualna.pl</a></li>
-      <li>📍 Adres: ul. Przykładowa 1, 00-000 Miasto</li>
-    </ul>
-  </section>
+    <section>
+      <h2>Kontakt</h2>
+      <p>📞 123 456 789<br>
+         📧 kontakt@mrtherapy.pl</p>
+    </section>
+  </main>
 
   <footer>
-    <div class="container">
-      <p>&copy; 2025 Terapia Manualna. Wszelkie prawa zastrzeżone.</p>
-    </div>
+    <p>&copy; 2025 MR-THERAPY</p>
   </footer>
 </body>
 </html>
